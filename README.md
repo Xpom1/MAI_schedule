@@ -3,7 +3,7 @@
 [//]: # ()
 [//]: # ([![KnlnKS's LeetCode stats]&#40;https://leetcode-stats-six.vercel.app/api?username=Xpom7&theme=dark&#41;]&#40;https://leetcode.com/Xpom7/&#41;)
 
-#Про бота
+# Про бота :cactus:
 
 Ссылка на [бота](https://t.me/MAI_tabel_bot)
 
@@ -11,7 +11,7 @@
 [One](https://vk.com/maevnik?w=wall-58942429_119383)
 [Two](https://t.me/MAIuniversity/3262)
 ___
-##Как все работает? 
+## Как все работает? 
 
 Для начала нужно пройти авторизацию и указать свою группу
 
@@ -57,8 +57,7 @@ ___
 
 ![](photo/img_8(CPOY).png)
 ___
-
-##Статистика
+## Статистика
 
 Данная статистика актуальна на 23.01.2023
 
