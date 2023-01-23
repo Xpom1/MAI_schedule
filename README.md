@@ -3,7 +3,7 @@
 [//]: # ()
 [//]: # ([![KnlnKS's LeetCode stats]&#40;https://leetcode-stats-six.vercel.app/api?username=Xpom7&theme=dark&#41;]&#40;https://leetcode.com/Xpom7/&#41;)
 
-#Про бота :cactus:
+#Про бота
 
 Ссылка на [бота](https://t.me/MAI_tabel_bot)
 
@@ -12,6 +12,7 @@
 [Two](https://t.me/MAIuniversity/3262)
 ___
 ##Как все работает? 
+
 Для начала нужно пройти авторизацию и указать свою группу
 
 Тут можно ошибиться пока пишешь свою группу, поэтому бот может подсказать
@@ -58,6 +59,7 @@ ___
 ___
 
 ##Статистика
+
 Данная статистика актуальна на 23.01.2023
 
 Общее количество пользователей: **1100+**
@@ -71,16 +73,19 @@ ___
 ![](photo/img_stats.png)
 ___
 ## Асинхронность
+
 Она была достигнута с помощью библиотеки [aiogram](https://docs.aiogram.dev/en/latest/)
 
 Ознкомиться можно тут [Bot_aiogram](Bot_aiogram.py)
 ___
 ## Работа с DB
+
 Была использована библиотека [**sqlite3**](https://docs.python.org/3/library/sqlite3.html)
 
 Все основные методы реализации предоставлены в [Work_With_db](Work_With_db.py)
 ___
 ## Coroutine
+
 Реализована с помощью [threading](https://docs.python.org/3/library/threading.html)
 ```python
 def update():
