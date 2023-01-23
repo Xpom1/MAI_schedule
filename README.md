@@ -10,6 +10,17 @@
 Публикации:
 [One](https://vk.com/maevnik?w=wall-58942429_119383)
 [Two](https://t.me/MAIuniversity/3262)
+
+
+- [Как все работает?
+](https://github.com/Xpom1/MAI_schedule#%D0%BA%D0%B0%D0%BA-%D0%B2%D1%81%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82)
+- [Статистика](https://github.com/Xpom1/MAI_schedule#%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)
+- [Асинхронность](https://github.com/Xpom1/MAI_schedule#%D0%B0%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C)
+- [Работа с DB](https://github.com/Xpom1/MAI_schedule#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-db)
+- [Coroutine](https://github.com/Xpom1/MAI_schedule#coroutine)
+- [Цензура](https://github.com/Xpom1/MAI_schedule#%D1%86%D0%B5%D0%BD%D0%B7%D1%83%D1%80%D0%B0)
+- [Интересные решения](https://github.com/Xpom1/MAI_schedule#%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F)
+
 ___
 ## Как все работает? 
 
@@ -56,6 +67,8 @@ ___
 Теперь оно отображается для всех)
 
 ![](photo/img_8(CPOY).png)
+
+[UP:arrow_up:](https://github.com/Xpom1/MAI_schedule#%D0%BF%D1%80%D0%BE-%D0%B1%D0%BE%D1%82%D0%B0-cactus)
 ___
 ## Статистика
 
@@ -70,18 +83,27 @@ ___
 Нагрузка на сервер
 
 ![](photo/img_stats.png)
+
+[UP:arrow_up:](https://github.com/Xpom1/MAI_schedule#%D0%BF%D1%80%D0%BE-%D0%B1%D0%BE%D1%82%D0%B0-cactus)
+
 ___
 ## Асинхронность
 
 Она была достигнута с помощью библиотеки [aiogram](https://docs.aiogram.dev/en/latest/)
 
 Ознкомиться можно тут [Bot_aiogram](Bot_aiogram.py)
+
+[UP:arrow_up:](https://github.com/Xpom1/MAI_schedule#%D0%BF%D1%80%D0%BE-%D0%B1%D0%BE%D1%82%D0%B0-cactus)
+
 ___
 ## Работа с DB
 
 Была использована библиотека [**sqlite3**](https://docs.python.org/3/library/sqlite3.html)
 
 Все основные методы реализации предоставлены в [Work_With_db](Work_With_db.py)
+
+[UP:arrow_up:](https://github.com/Xpom1/MAI_schedule#%D0%BF%D1%80%D0%BE-%D0%B1%D0%BE%D1%82%D0%B0-cactus)
+
 ___
 ## Coroutine
 
@@ -97,6 +119,9 @@ threading.Thread(target=update, daemon=True).start()
 Этот код запускает скрипт, который каждые 6 часов обновляет данные о файлах
 
 Нужно для хранения актуальных файлов
+
+[UP:arrow_up:](https://github.com/Xpom1/MAI_schedule#%D0%BF%D1%80%D0%BE-%D0%B1%D0%BE%D1%82%D0%B0-cactus)
+
 ___
 
 ## Цензура
@@ -106,6 +131,9 @@ def mat(slova):
     return set(j.lower().translate(str.maketrans('', '', string.punctuation)) for j in slova.split()).intersection(
         set(i.get('word') for i in json.load(open('need/cenz.json')))) != set()
 ```
+
+[UP:arrow_up:](https://github.com/Xpom1/MAI_schedule#%D0%BF%D1%80%D0%BE-%D0%B1%D0%BE%D1%82%D0%B0-cactus)
+
 ___
 ## Интересные решения
 
@@ -132,3 +160,5 @@ def gen_lesson_dz(group, day) -> types.InlineKeyboardMarkup:
         markup.insert(types.InlineKeyboardButton(f"В начало", callback_data=f"DZ_add"))
     return markup
 ```
+
+[UP:arrow_up:](https://github.com/Xpom1/MAI_schedule#%D0%BF%D1%80%D0%BE-%D0%B1%D0%BE%D1%82%D0%B0-cactus)
