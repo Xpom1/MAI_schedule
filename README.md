@@ -1,8 +1,3 @@
-[//]: # ([![Typing SVG]&#40;https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Computer+science+student&#41;]&#40;https://git.io/typing-svg&#41;)
-
-[//]: # ()
-[//]: # ([![KnlnKS's LeetCode stats]&#40;https://leetcode-stats-six.vercel.app/api?username=Xpom7&theme=dark&#41;]&#40;https://leetcode.com/Xpom7/&#41;)
-
 # Про бота :cactus:
 
 Ссылка на [бота](https://t.me/MAI_tabel_bot)
